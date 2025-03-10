@@ -1,0 +1,85 @@
+# Database and Configuration
+/database/schema_production.sql
+/database/backups/
+db.php
+dbProduction.php
+config.php
+.env
+.env.*
+
+# Server Configuration
+.htaccess
+.htaccess.prod
+php_errors.log
+error_log
+robots.txt
+
+# Generated QR Codes and Uploads
+/qr_codes/*
+!/qr_codes/.gitkeep
+/uploads/*
+!/uploads/.gitkeep
+
+# IDE and Editor Files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Logs and Debug
+/logs/*
+!/logs/.gitkeep
+*.log
+debug.log
+npm-debug.log*
+php_errors.log
+
+# Dependencies
+/vendor/
+/node_modules/
+composer.lock
+package-lock.json
+yarn.lock
+
+# Cache and Temporary
+/cache/*
+!/cache/.gitkeep
+*.cache
+*.tmp
+*.temp
+
+# Sensitive Data
+*.pem
+*.key
+*.crt
+*.sql
+*.sqlite
+*.db
+*.env
+*.config
+
+# Backup Files
+*.bak
+*copy*
+*backup*
+*.old
+
+# Keep Example Files
+!db.example.php
+!.htaccess.example
+!.env.example
+!README.md
+
+# Documentation
+/docs/private/
+/documentation/internal/
+
+# Test Files
+/tests/
+/test/
+phpunit.xml
